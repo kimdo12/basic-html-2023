@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ID/CLASS 선택자</title>
+    <style>
+        /* * {
+            margin: 0px;
+            padding: 0px;
+        } */
+
+        #header {
+            width: 1024px;
+            margin: 0 auto;
+            background-color: red;
+        }
+
+        #wrap {
+            width: 1024px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #aside {
+            width: 200px;
+            float: left;
+            background-color: blue;
+        }
+
+        #content {
+            width: 824px;
+            float: right;
+            background-color: aquamarine;
+        }
+
+        .summer {
+            color: aqua;
+        }
+        .item{
+            font-size: 50px;
+            font-style: unset;
+        }
+        .bound{
+            width: 800px;
+             /* border-width: 2px; 
+            border-style:  solid;
+            border-color: #808080;  */
+            border-radius: 10px;
+            border: 3px dotted #808080;
+        }
+    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <div id="header">
+        <h1>#header 영역 </h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h2>#aside 영역</h2>
+        </div>
+        <div id="content">
+            <h2>#content 영역</h2>
+        </div>
+    </div>
+
+
+    <div>
+        <ul>
+            <li class="summer">딸기</li>
+            <li>애플망고</li>
+            <li class="summer">바나나</li>
+            <li>수박</li>
+        </ul>
+    </div>
+    <h1 class="item bound">동해물과 백두산이 마르고 닳도록</h1>
+</body>
+
+</html>

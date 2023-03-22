@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>속성 선택자</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        input[type='text']{
+            border-width: 4px;
+            border-color: crimson;
+        }
+        input[type='password']{
+            border-width: 4px;
+            border-color: yellowgreen;
+            background-color: tomato;
+        }
+        input[type='submit']{
+            font-weight: bolder;
+            font-size: 15px;
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form method="get">
+        <table>
+        <tr>
+            <td>아이디</td>
+            <td><input type="text" name="id"></td>
+        </tr>
+        <tr>
+            <td>패스워드</td>
+            <td><input type="password" name="pass"></td>
+        </tr>
+    </table>
+    <input type="submit" value="로그인">
+    </form>
+</body>
+
+</html>
