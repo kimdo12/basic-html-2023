@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS 위치 속성</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body>div{
+            width: 110px;
+            height: 110px;
+            border: 2px solid black;
+            position: relative;
+            overflow: hidden;
+        }
+.box{
+    width: 100px; height: 100px;
+    position: absolute;
+}
+.box:nth-child(1){background-color: red;
+left: 10px; top: 10px; z-index: 100;}
+.box:nth-child(2){background-color: #00FF00;
+left: 50px ;top:50px; z-index: 10;}
+.box:nth-child(3){background-color: blue;
+left: 90px; top: 90px; z-index: 1;}
+
+
+    </style>
+ </head>
+ <body>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>    
+    </div>
+    
+    <h1>Lorem ipsum dolor sit</h1>
+ </body>
+ </html>
