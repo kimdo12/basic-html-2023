@@ -16,16 +16,36 @@ java개발자 과정 프론트앤드 리포지토리
 
 ## 2일차
 
-- HTML 5 학습
+- HTML 5프로트엔드 학습
     - HTML 5 입력태그
     - CSS 3 기본 
     - CSS 3 고급
 
 ## 3일차
 
-- HTML 5 학습
+- HTML 5 프론트엔드 학습
     - CSS 3 고급
     - HTML 레이아웃
     - 반응형 웹
-    3일차 레이아웃
+     
+     3일차 레이아웃
+    
     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/layout.png">
+
+
+## 4일차
+
+- 프론트엔드 학습
+    - Grid 레이아웃
+    - 반응형 웹
+    - Javascript 기초
+
+    4일차 그리드레이아웃 포토갤러리
+     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/gallery02.png">
+
+## 5일차
+
+- 프론트엔드 학습
+    - Javascript 기초
+    - Bootstrap 학습
+    - 포트폴리오 웹사이트 만들기
