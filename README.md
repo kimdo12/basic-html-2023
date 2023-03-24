@@ -46,6 +46,6 @@ java개발자 과정 프론트앤드 리포지토리
 ## 5일차
 
 - 프론트엔드 학습
-    - Javascript 기초
+    - js/jQuery 연동
     - Bootstrap 학습
     - 포트폴리오 웹사이트 만들기
