@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Masonry Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            background-color: black;
+            margin: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        //jQUery 로 온로드이벤트
+        $(document).ready(function () {
+            //카드 객체 생성
+            var makeCard = function () {
+                for (var i = 0; i < 100; i++) {
+                    $('<div></div>').addClass('card').css({
+                        'width': '100px',
+                        'height': (Math.floor(Math.random() * 100) + 50)
+                    }).appendTo('body');
+                }
+                $('body').masonry({ columnWidth: 100 });
+                $('.card').css({
+                    'background-color' : 'black',
+                    'margin': '5px'
+                });
+            }
+            makeCard();
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
