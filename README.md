@@ -54,4 +54,6 @@ java개발자 과정 프론트앤드 리포지토리
 ## 6일차
 
 - 프론트엔드 학습
-      -      
+     -      
+
+     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/albumclone.png">
