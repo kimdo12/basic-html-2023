@@ -65,7 +65,18 @@ java개발자 과정 프론트앤드 리포지토리
 
 - 프론트엔드 학습
     -  핀터레스트 스타일 웹페이지 마무리
+        - Bootstrap 5.3.0
+        - jQuery 3.6.4
+        - Masonry layout Library
+        - ImageLoaded Library
+        - Lightbox 구현
+    - Parallax Scrolling web
+
   
     7일차 핀터레스트 스타일 클로닝
    
     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port.png">
+
+    Parallax Scrolling Web
+
+     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port1.png">
