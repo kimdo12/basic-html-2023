@@ -71,6 +71,9 @@ java개발자 과정 프론트앤드 리포지토리
         - ImageLoaded Library
         - Lightbox 구현
     - Parallax Scrolling web
+    - Single Page Template
+        - Bootstrap
+        - jQuery
 
   
     7일차 핀터레스트 스타일 클로닝
@@ -80,3 +83,8 @@ java개발자 과정 프론트앤드 리포지토리
     Parallax Scrolling Web
 
      <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port1.png">
+
+## 8일차
+- 프론트엔드 학습
+    - Single Page Template
+    - SB Admin Page
