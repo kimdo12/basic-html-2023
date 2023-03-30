@@ -91,4 +91,4 @@ java개발자 과정 프론트앤드 리포지토리
 
 
     Grayscale Single Page Templete
-     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port3.png" width="700">
+     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port3vid.gif" width="700">
