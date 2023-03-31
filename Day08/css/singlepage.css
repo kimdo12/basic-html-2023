@@ -38,13 +38,14 @@ h1{
 }
 @media screen  and ( min-width:1200px) {
     font-size: 2.5rem;
+   
 }
 
 h2{
     font-size: calc(1.3rem+0.9vw); /*vw%  rem배수*/
 }
 @media screen  and ( min-width:1200px) {
-    font-size: 2.0rem;
+    font-size : 2.0rem;
 }
 
 p{
