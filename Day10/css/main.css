@@ -130,7 +130,8 @@ p {
     min-width: 0;
     flex-grow: 1;
     min-height: calc(100vh - 56px);
-    /* margin-left: -225px; */
+    margin-left:0;
+    transition: margin 0.715s ease-in-out;
 }
 
 /* 전체 레이아웃 끝*/
