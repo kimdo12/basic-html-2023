@@ -116,5 +116,6 @@ java개발자 과정 프론트앤드 리포지토리
     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port6.gif" width="700">
 ## 11일차
 - 프론트엔드 실습
+    <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port7.gif" width="700">
 ## 12일차
 - 프론트엔드 실습
