@@ -119,3 +119,6 @@ java개발자 과정 프론트앤드 리포지토리
     <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port7.gif" width="700">
 ## 12일차
 - 프론트엔드 실습
+    - 카카오 지도 API 연동
+    - 다음 우편번호 검색 API연동
+    <img src="https://raw.githubusercontent.com/kimdo12/basic-html-2023/main/image/port8.png" width="700">
