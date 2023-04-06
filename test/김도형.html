@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>김도형페이지</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+    <!-- 1. Boostrap용 css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+      
+       
+    <style>
+        #wholebody{
+    background-color: thistle;
+}
+
+#title{
+   
+    color:rgb(229, 186, 45);
+}
+
+#footer{
+    background-color: rgb(229, 186, 45);
+}
+
+#article{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  
+}
+#aside{
+    color: white;
+    background-color: #5c5c5c;
+}
+#header{
+    background-color: #5c5c5c;
+    height: 130px;
+}
+
+#navigation{
+    background-color: rgb(229, 186, 45);
+    height: 50px;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text:hover{
+    text-decoration: underline;
+    font-weight: 100;
+    color: blue;
+}
+    </style>
+    
+</head>
+
+<body id="wholebody">
+    <div class="container">
+
+        <div id="header"
+            class="d-flex flex-column justify-content-center  mx-5 mt-5  border-top border-start border-end border-dark ">
+            <div>
+                <header id="title">
+                    <h1 style="margin-left: 30px; margin-bottom: -20px; font-weight: 600;">한글 Page</h1>
+                </header>
+            </div>
+            
+        </div>
+        <div id="navigation" class="sb-nav-fixed mx-5 border-end border-start border-dark" >
+            <nav id="navbar" class="navbar navbar-expand">
+                <ul id="topmenu" class="navbar-nav me-auto my-0" style="margin-left: 30px; margin-top: 30px; margin-bottom: -40px;">
+                    <a id="home" class="text px-1" value="home"  href="#">Home</a>
+                    <a id="about"  class="text  px-1" value="about" href="#">About me</a>
+                     <a id="portfolio"  class="text px-1 " value="portfolio" href="#">portfolio</a>
+                     <a id="contact"  class="text px-1" value="contact"href="#">Contact</a>
+                </ul>
+            </nav>
+        </div>
+        <script>
+         
+            $(document).ready(function () {
+               $('#home').click(function (event) {
+                   event.preventDefault();
+                   alert('home페이지');
+               });
+               $('#about').click(function (event) {
+                   event.preventDefault();
+                   alert('about페이지');
+               });
+               $('#portfolio').click(function (event) {
+                   event.preventDefault();
+                   alert('portfolio페이지');
+               });
+               $('#contact').click(function (event) {
+                   event.preventDefault();
+                   alert('contact페이지');
+               });
+             
+             
+           });
+       
+           </script>
+
+
+        <div class="row d-flex  me-5 ms-5" style="background-color: lightgray; height: 100px;">
+            <div id="article" class="col-9 border-top border-bottom border-start border-dark">
+                <h2 class="ms-4 mt-4" style="font-size: medium; font-weight: bold;">섹션</h2>
+                <p class="ms-4">섹션내용입니다.</p>
+            </div>
+            <div id="aside" class="col-3  border border-dark">
+                <h2 class="mt-4" style="font-size: medium; font-weight: bold;">배너영역</h2>
+            </div>
+        </div>
+
+
+        <footer id="footer" class="  me-5 ms-5 border-bottom border-start border-end border-dark">
+
+            <div class="row">
+                <div class="col-12">
+
+                    <p id="copy" class="mt-4 ms-4 text-center">&copy; 2023. 김도형. inc reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

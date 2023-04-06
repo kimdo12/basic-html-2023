@@ -1,0 +1,40 @@
+#wholebody{
+    background-color: thistle;
+}
+
+#title{
+   
+    color:rgb(229, 186, 45);
+}
+
+#footer{
+    background-color: rgb(229, 186, 45);
+}
+
+#article{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  
+}
+#aside{
+    color: white;
+    background-color: #5c5c5c;
+}
+#header{
+    background-color: #5c5c5c;
+    height: 130px;
+}
+
+#navigation{
+    background-color: rgb(229, 186, 45);
+    height: 50px;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
